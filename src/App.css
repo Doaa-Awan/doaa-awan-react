@@ -1,0 +1,42 @@
+:root {
+  --primary-clr: hotpink;
+}
+/* font-family: "Karla", serif; */
+
+nav {
+  font-family: "Karla", serif;
+}
+
+nav .navbar-brand {
+  font-family: "Kaushan Script", serif;
+  font-size: 35px;
+  color: var(--primary-clr);
+}
+
+nav .sidebar {
+  background-color: rgba(255, 255, 255, 0.815);
+  backdrop-filter: blur(10px);
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: gray !important;
+  margin: 0 30px;
+}
+
+nav ul li a:hover {
+  color: var(--primary-clr) !important;
+}
+
+.btn-contact {
+  background-color: var(--primary-clr);
+  font-size: 18px;
+}
+
+/* mobile view */
+@media (max-width: 991px) {
+  nav ul li a {
+    /* gap between nav items */
+    margin: 5px;
+  }
+}

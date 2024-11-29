@@ -1,11 +1,12 @@
 import "./App.css";
-import Hero from "./sections/Hero/hero";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import Nav from "./sections/Nav/Nav";
 
 function App() {
   return (
     <>
-      <Hero />
+      <Nav />
     </>
   );
 }
