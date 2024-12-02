@@ -65,7 +65,7 @@ function Nav() {
             <div className="d-flex flex-lg-row justify-content-center align-items-center gap-3">
               <Link
                 to="/"
-                className="btn-contact text-white text-decoration-none px-4 py-2 rounded-4"
+                className="btn-contact text-white text-decoration-none px-4 py-2 rounded-5 shadow"
               >
                 Contact
               </Link>

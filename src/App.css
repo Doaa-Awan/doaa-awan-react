@@ -1,7 +1,12 @@
 :root {
-  --primary-clr: hotpink;
+  --primary: #D67C96;
+  --primary-darker: #c8738b;
 }
 /* font-family: "Karla", serif; */
+
+body {
+  background-color: #F5F5F5!important;
+}
 
 nav {
   font-family: "Karla", serif;
@@ -10,7 +15,7 @@ nav {
 nav .navbar-brand {
   font-family: "Kaushan Script", serif;
   font-size: 35px;
-  color: var(--primary-clr)!important;
+  color: var(--primary)!important;
 }
 
 nav .sidebar {
@@ -26,21 +31,26 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: var(--primary-clr) !important;
+  color: var(--primary) !important;
 }
 
 nav .active{
-  color: red!important;
+  color: var(--primary-darker)!important;
 }
 
 .btn-contact {
-  background-color: var(--primary-clr);
+  background-color: var(--primary);
   font-size: 18px;
+  transition: all 3ms ease-in-out;
 }
 
-.page-container{
-  margin: 120px 80px;
+.btn-contact:hover {
+  background-color: var(--primary-darker);
 }
+
+/* .page-container{
+  margin: 120px 80px;
+} */
 
 /* mobile view */
 @media (max-width: 991px) {

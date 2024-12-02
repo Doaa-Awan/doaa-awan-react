@@ -1,0 +1,44 @@
+h1 {
+  font-family: "Kaushan Script", sans-serif;
+  color: var(--primary) !important;
+  font-size: 120px !important;
+  /* margin-left: 30px !important; */
+  /* color: #D67C96!important; */
+}
+
+h2 {
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  color: var(--primary-darker) !important;
+  font-weight: 400!important;
+  /* padding-right: 100px !important; */
+}
+
+h2 .leftBorder {
+  border-left: 5px solid var(--primary-darker);
+  padding-left: 20px !important;
+}
+
+img {
+  /* width: auto!important;
+    height: 320px!important; */
+  background: linear-gradient(180deg, #f78b89 0%, #a56b69 100%);
+  scale: 75%;
+}
+
+.headingContainer{
+    margin-top: 105px!important;
+    /* padding-left: 40px!important; */
+}
+
+.buttons {
+  position: relative;
+  top: 50px;
+}
+
+.iconGithub{
+    font-size: 70px;
+    color: var(--primary);
+    margin-right: 50px;
+}
+

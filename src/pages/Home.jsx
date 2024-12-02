@@ -1,5 +1,12 @@
+import Hero from "../sections/Hero/Hero";
+
 function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <Hero />
+      <div>SECTION 2</div>
+    </>
+  );
 }
 
 export default Home;
