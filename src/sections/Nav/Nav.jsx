@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg bg-transparent fixed-top p-3 ms-3 me-3 mt-2">
+    <nav className="navbar navbar-expand-lg bg-transparent fixed-top p-3 ps-3 pe-3 pt-2">
       <div className="container-fluid">
         {/* Logo */}
         <Link className="navbar-brand" to="/">

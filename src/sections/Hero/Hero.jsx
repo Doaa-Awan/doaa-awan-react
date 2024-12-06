@@ -14,7 +14,7 @@ function Hero() {
                 <h1 className="ms-5">Doaa Awan</h1>
               </div>
               <div className="row">
-                <h2 className="mt-4 text-end">
+                <h2 className="mt-4 text-center">
                   <span className={`${styles.leftBorder}`}></span>Software
                   Developer
                 </h2>
@@ -31,16 +31,21 @@ function Hero() {
           <div className="row">
             <div className={`${styles.buttons} d-flex justify-content-center`}>
               <FaLinkedin
-                className={`${styles.iconGithub} border rounded-circle`}
-              />
-              <MdOutlineMail
-                className={`${styles.iconGithub} border rounded-circle bg-primary text-white p-2`}
+                className={`${styles.iconSocial} border rounded-circle`}
               />
               <a
                 href="https://github.com/Doaa-Awan?tab=repositories"
                 target="_blank"
               >
-                <FaGithub className={`${styles.iconGithub}`} />
+                <MdOutlineMail
+                  className={`${styles.iconSocial} ${styles.emailIcon} border rounded-circle`}
+                />
+              </a>
+              <a
+                href="https://github.com/Doaa-Awan?tab=repositories"
+                target="_blank"
+              >
+                <FaGithub className={`${styles.iconSocial}`} />
               </a>
             </div>
           </div>

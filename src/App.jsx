@@ -4,9 +4,9 @@ import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "./App.css";
 import Nav from "./sections/Nav/Nav";
 import { Routes, Route } from "react-router-dom";
+import "./styles/App.css";
 
 function App() {
   return (

@@ -10,7 +10,7 @@ h2 {
   font-family: "Karla", sans-serif;
   text-transform: uppercase;
   color: var(--primary-darker) !important;
-  font-weight: 400!important;
+  font-weight: 400 !important;
   /* padding-right: 100px !important; */
 }
 
@@ -26,9 +26,9 @@ img {
   scale: 75%;
 }
 
-.headingContainer{
-    margin-top: 105px!important;
-    /* padding-left: 40px!important; */
+.headingContainer {
+  margin-top: 105px !important;
+  /* padding-left: 40px!important; */
 }
 
 .buttons {
@@ -36,9 +36,14 @@ img {
   top: 50px;
 }
 
-.iconGithub{
-    font-size: 70px;
-    color: var(--primary);
-    margin-right: 50px;
+.iconSocial {
+  font-size: 70px;
+  color: var(--primary);
+  margin-right: 50px;
 }
 
+.emailIcon {
+  padding: 11px !important;
+  background: var(--primary) !important;
+  color: var(--background)!important;
+}
