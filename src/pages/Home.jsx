@@ -14,15 +14,15 @@ function Home() {
       </p>
       <div className={`${styles.skillsContainer}`}>
         <p className={`${styles.title}`}>Technical Skills</p>
-        <div className="container-fluid">
+        <div className='container-fluid'>
           {/* LANGUAGES */}
-          <div className="row">
-            <div className="col border">
-              <div className="row">
-                <div className="col-2">
+          <div className='row'>
+            <div className='col border m-2'>
+              <div className='row'>
+                <div className='col-2'>
                   <div className={styles.skillsTitle}>Languages</div>
                 </div>
-                <div className="col">
+                <div className='col'>
                   <div className={styles.skillsCol}>
                     <span className={styles.skillTag}>Python</span>
                     <span className={styles.skillTag}>Java</span>
@@ -34,12 +34,15 @@ function Home() {
               </div>
             </div>
           </div>
-          {/* <div className="col border">
-              <div className="row">
-                <div className="col-3">
+
+          {/* LIBRARIES */}
+          <div className='row'>
+            <div className='col border m-2'>
+              <div className='row'>
+                <div className='col-2'>
                   <div className={styles.skillsTitle}>Libraries</div>
                 </div>
-                <div className="col">
+                <div className='col'>
                   <div className={styles.skillsCol}>
                     <span className={styles.skillTag}>PyMongo</span>
                     <span className={styles.skillTag}>NumPy</span>
@@ -50,16 +53,17 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
+          </div>
 
           {/* FRAMEWORKS */}
-          <div className="row">
-            <div className="col border">
-              <div className="row">
-                <div className="col-2">
+          <div className='row'>
+            <div className='col border m-2'>
+              <div className='row'>
+                <div className='col-2'>
                   <div className={styles.skillsTitle}>Frameworks</div>
                 </div>
-                <div className="col">
+                <div className='col'>
                   <div className={styles.skillsCol}>
                     <span className={styles.skillTag}>React</span>
                     <span className={styles.skillTag}>Bootstrap</span>
@@ -73,12 +77,14 @@ function Home() {
             </div>
           </div>
 
-          {/* <div className="col border">
-              <div className="row">
-                <div className="col-3">
+          {/* DATABASES */}
+          <div className='row'>
+            <div className='col border m-2'>
+              <div className='row'>
+                <div className='col-2'>
                   <div className={styles.skillsTitle}>Databases</div>
                 </div>
-                <div className="col">
+                <div className='col'>
                   <div className={styles.skillsCol}>
                     <span className={styles.skillTag}>MongoDB</span>
                     <span className={styles.skillTag}>MySQL</span>
@@ -90,16 +96,17 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
+          </div>
 
           {/* TOOLS & PLATFORMS */}
-          <div className="row">
-            <div className="col border">
-              <div className="row">
-                <div className="col-2">
+          <div className='row'>
+            <div className='col border m-2'>
+              <div className='row'>
+                <div className='col-2'>
                   <div className={styles.skillsTitle}>Tools & Platforms</div>
                 </div>
-                <div className="col">
+                <div className='col'>
                   <div className={styles.skillsCol}>
                     <span className={styles.skillTag}>GitHub</span>
                     <span className={styles.skillTag}>Azure</span>
