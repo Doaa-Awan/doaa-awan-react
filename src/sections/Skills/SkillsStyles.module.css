@@ -1,0 +1,33 @@
+.skillsContainer {
+    margin: 60px 120px !important;
+  }
+  
+  .title {
+    /* margin-left: 60px; */
+    text-transform: uppercase !important;
+    font-size: 27px;
+    color: gray;
+  }
+  
+  .skillsTitle {
+    border-left: 3px solid var(--primary-darker);
+    color: var(--primary-darker);
+    margin: 20px 0;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  
+  .skillTag {
+    border: 1px solid var(--primary-darker);
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 5px;
+    font-size: 22px;
+  }
+  
+  .skillsCol {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    /* justify-content: center; */
+  }
