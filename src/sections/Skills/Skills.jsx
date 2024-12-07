@@ -1,4 +1,5 @@
-import styles from './SkillsStyles.module.css'
+import styles from "./SkillsStyles.module.css";
+import csharp from "../../assets/icons8-csharp.svg";
 
 function Skills() {
   return (
@@ -7,7 +8,7 @@ function Skills() {
       <div className='container-fluid'>
         {/* LANGUAGES */}
         <div className='row'>
-          <div className='col border m-2'>
+          <div className='col m-2'>
             <div className='row'>
               <div className='col-2'>
                 <div className={styles.skillsTitle}>Languages</div>
@@ -16,7 +17,7 @@ function Skills() {
                 <div className={styles.skillsCol}>
                   <span className={styles.skillTag}>Python</span>
                   <span className={styles.skillTag}>Java</span>
-                  <span className={styles.skillTag}>C#</span>
+                  <span className={styles.skillTag}> <img src={csharp} alt="" className={`${styles.icon} img-fluid`} /> C Sharp</span>
                   <span className={styles.skillTag}>PHP</span>
                   <span className={styles.skillTag}>JavaScript</span>
                 </div>
@@ -27,7 +28,7 @@ function Skills() {
 
         {/* LIBRARIES */}
         <div className='row'>
-          <div className='col border m-2'>
+          <div className='col m-2'>
             <div className='row'>
               <div className='col-2'>
                 <div className={styles.skillsTitle}>Libraries</div>
@@ -48,7 +49,7 @@ function Skills() {
 
         {/* FRAMEWORKS */}
         <div className='row'>
-          <div className='col border m-2'>
+          <div className='col m-2'>
             <div className='row'>
               <div className='col-2'>
                 <div className={styles.skillsTitle}>Frameworks</div>
@@ -69,7 +70,7 @@ function Skills() {
 
         {/* DATABASES */}
         <div className='row'>
-          <div className='col border m-2'>
+          <div className='col m-2'>
             <div className='row'>
               <div className='col-2'>
                 <div className={styles.skillsTitle}>Databases</div>
@@ -91,7 +92,7 @@ function Skills() {
 
         {/* TOOLS & PLATFORMS */}
         <div className='row'>
-          <div className='col border m-2'>
+          <div className='col m-2'>
             <div className='row'>
               <div className='col-2'>
                 <div className={styles.skillsTitle}>Tools & Platforms</div>

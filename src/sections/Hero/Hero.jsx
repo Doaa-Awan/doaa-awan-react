@@ -22,7 +22,7 @@ function Hero() {
             </div>
             <div className="col-5">
               <img
-                src="/src/assets/Headshots.png"
+                src="/src/assets/pfp.png"
                 alt="Profile"
                 className="img-fluid border rounded-circle shadow"
               />
