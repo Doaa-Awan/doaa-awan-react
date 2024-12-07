@@ -1,24 +1,27 @@
 .statement {
-  margin: 10px 60px 80px;
+  /* margin: 10px 60px 80px; */
   font-family: "Karla", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: lighter;
   word-break: break-word;
-  border: 2px solid var(--primary);
-  padding: 30px;
-  border-radius: 25px;
+  /* border: 2px solid var(--primary); */
+  padding: 200px 300px;
+  color: white !important;
+  /* border-radius: 25px; */
   line-height: 1.8;
   text-align: center;
+  background-color: var(--primary-darker);
 }
 
-.statementTitle {
+/* .statementTitle {
   font-family: "Karla", sans-serif;
   text-transform: uppercase;
   color: var(--primary-darker);
   font-size: 30px;
   margin: 20px;
-}
+} */
 
-.pgHome {
+.skillsContainer {
   margin: 60px 120px !important;
 }
 
