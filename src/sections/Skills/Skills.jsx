@@ -296,15 +296,6 @@ function Skills() {
                     />
                     Visual Studio
                   </span>
-
-                  <span className={styles.skillTag}>
-                    <img
-                      src={vscode}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    VS Code
-                  </span>
                   <span className={styles.skillTag}>
                     <img
                       src={hive}
@@ -312,6 +303,14 @@ function Skills() {
                       className={`${styles.icon} img-fluid`}
                     />
                     Hive
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={vscode}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    VS Code
                   </span>
                   <span className={styles.skillTag}>
                     <img

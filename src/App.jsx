@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Nav />
-      <div className='page-container'>
+      <div>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
