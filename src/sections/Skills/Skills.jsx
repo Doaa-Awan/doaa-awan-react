@@ -35,7 +35,7 @@ import inkscape from "../../assets/icons/icons8-inkscape.svg";
 function Skills() {
   return (
     <div className={`${styles.skillsContainer}`}>
-      <p className={`${styles.title}`}>Technical Skills</p>
+      {/* <p className={`${styles.title}`}>Technical Skills</p> */}
       <div className='container-fluid'>
         {/* LANGUAGES */}
         <div className='row'>
@@ -287,14 +287,16 @@ function Skills() {
                     />
                     Power Automate
                   </span>
+
                   <span className={styles.skillTag}>
                     <img
-                      src={hive}
+                      src={visualstudio}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
-                    Hive
+                    Visual Studio
                   </span>
+
                   <span className={styles.skillTag}>
                     <img
                       src={vscode}
@@ -305,11 +307,11 @@ function Skills() {
                   </span>
                   <span className={styles.skillTag}>
                     <img
-                      src={visualstudio}
+                      src={hive}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
-                    Visual Studio
+                    Hive
                   </span>
                   <span className={styles.skillTag}>
                     <img
