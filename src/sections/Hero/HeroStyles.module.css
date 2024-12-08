@@ -19,7 +19,7 @@ h2 .leftBorder {
   padding-left: 20px !important;
 }
 
-img {
+.imgHero {
   /* width: auto!important;
     height: 320px!important; */
   background: linear-gradient(180deg, #f78b89 0%, #a56b69 100%);
@@ -36,7 +36,7 @@ img {
   top: 50px;
 }
 
-.iconSocial {
+/* .iconSocial {
   font-size: 70px;
   color: var(--primary);
   margin-right: 50px;
@@ -46,4 +46,11 @@ img {
   padding: 11px !important;
   background: var(--primary) !important;
   color: var(--background)!important;
+} */
+
+.test{
+  background: transparent!important;
+  height: 80px!important;
+  border-radius: 50%!important;
+  margin-right: 38px;
 }

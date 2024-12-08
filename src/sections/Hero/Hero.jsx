@@ -1,36 +1,51 @@
 import styles from "./HeroStyles.module.css";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { MdOutlineMail } from "react-icons/md";
+// import { FaGithub } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
+// import { MdOutlineMail } from "react-icons/md";
+import mail from "../../assets/mail-icon.svg";
+import github from "../../assets/github-icon.svg";
+import linkedin from "../../assets/linkedin-icon.svg";
 
 function Hero() {
   return (
     <div>
-      <div className="d-flex align-items-center vh-100">
-        <div className="container">
-          <div className="row">
+      <div className='d-flex align-items-center vh-100'>
+        <div className='container'>
+          <div className='row'>
             <div className={`${styles.headingContainer} col-7`}>
-              <div className="row">
-                <h1 className="ms-5">Doaa Awan</h1>
+              <div className='row'>
+                <h1 className='ms-5'>Doaa Awan</h1>
               </div>
-              <div className="row">
-                <h2 className="mt-4 text-center">
+              <div className='row'>
+                <h2 className='mt-4 text-center'>
                   <span className={`${styles.leftBorder}`}></span>Software
                   Developer
                 </h2>
               </div>
             </div>
-            <div className="col-5">
+            <div className='col-5'>
               <img
-                src="/src/assets/pfp.png"
-                alt="Profile"
-                className="img-fluid border rounded-circle shadow"
+                src='/src/assets/pfp.png'
+                alt='Profile'
+                className={`${styles.imgHero} img-fluid border rounded-circle shadow`}
               />
             </div>
           </div>
-          <div className="row">
+          <div className='row'>
             <div className={`${styles.buttons} d-flex justify-content-center`}>
-              <FaLinkedin
+              <img
+                src={linkedin}
+                alt=''
+                className={`${styles.test} img-fluid`}
+              />
+              <img src={github} alt='' className={`${styles.test} img-fluid`} />
+              <img
+                src={mail}
+                alt=''
+                className={`${styles.test} img-fluid border`}
+              />
+
+              {/* <FaLinkedin
                 className={`${styles.iconSocial} border rounded-circle`}
               />
               <a
@@ -46,7 +61,7 @@ function Hero() {
                 target="_blank"
               >
                 <FaGithub className={`${styles.iconSocial}`} />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

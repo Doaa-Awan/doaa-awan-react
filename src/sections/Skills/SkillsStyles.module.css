@@ -2,10 +2,17 @@
   margin: 60px 120px !important;
 }
 
+/* .test{
+  background: transparent!important;
+  height: 80px!important;
+  border-radius: 50%!important;
+} */
+
 .title {
   /* margin-left: 60px; */
   text-transform: uppercase !important;
   font-size: 27px;
+  font-weight: lighter;
   color: gray;
 }
 
@@ -20,11 +27,11 @@
 }
 
 .skillTag {
-  border: 1px solid var(--primary-darker);
+  border: 1px solid gray;
   border-radius: 30px;
   padding: 0 20px 0 10px;
   margin: 5px;
-  font-size: 15px;
+  font-size: 19px;
 }
 
 .skillsCol {
@@ -38,4 +45,5 @@
 .icon {
   background: transparent !important;
   height: 45px !important;
+  scale: 70%;
 }

@@ -1,36 +1,36 @@
 import styles from "./SkillsStyles.module.css";
-import python from "../../assets/icons8-python.svg";
-import java from "../../assets/icons8-java.svg";
-import csharp from "../../assets/icons8-csharp.svg";
-import php from "../../assets/icons8-php.svg";
-import javascript from "../../assets/icons8-javascript.svg";
-import react from "../../assets/icons8-react.svg";
-import bootstrap from "../../assets/icons8-bootstrap.svg";
-import numpy from "../../assets/icons8-numpy.svg";
-import pandas from "../../assets/icons8-pandas.svg";
-import anaconda from "../../assets/icons8-anaconda.svg";
-import mysql from "../../assets/icon-mysql.svg";
-import mariadb from "../../assets/icons8-mariadb.svg";
-import synapse from "../../assets/icons8-synapse.svg";
-import mongodb from "../../assets/icon-mongodb.svg";
-import sql from "../../assets/icons8-sql.svg";
-import hadoop from "../../assets/icon-hadoop.svg";
-import spark from "../../assets/icon-spark.svg";
-import matplotlib from "../../assets/icon-matplotlib.svg";
-import github from "../../assets/icons8-github.svg";
-import azure from "../../assets/icons8-azure.svg";
-import hive from "../../assets/icon-hive.svg";
-import powerbi from "../../assets/icons8-powerbi.svg";
-import powerautomate from "../../assets/icons8-automate.svg";
-import vscode from "../../assets/icons8-vscode.svg";
-import visualstudio from "../../assets/icons8-visualstudio.svg";
-import jupyter from "../../assets/icons8-jupyter.svg";
-import android from "../../assets/icons8-android.svg";
-import eclipse from "../../assets/icon-eclipse.svg";
-import figma from "../../assets/icons8-figma.svg";
-import canva from "../../assets/icons8-canva.svg";
-import illustrator from "../../assets/icons8-illustrator.svg";
-import inkscape from "../../assets/icons8-inkscape.svg";
+import python from "../../assets/icons/icons8-python.svg";
+import java from "../../assets/icons/icons8-java.svg";
+import csharp from "../../assets/icons/icons8-csharp.svg";
+import php from "../../assets/icons/icons8-php.svg";
+import javascript from "../../assets/icons/icons8-javascript.svg";
+import react from "../../assets/icons/icons8-react.svg";
+import bootstrap from "../../assets/icons/icons8-bootstrap.svg";
+import numpy from "../../assets/icons/icons8-numpy.svg";
+import pandas from "../../assets/icons/icons8-pandas.svg";
+import anaconda from "../../assets/icons/icons8-anaconda.svg";
+import mysql from "../../assets/icons/icon-mysql.svg";
+import mariadb from "../../assets/icons/icons8-mariadb.svg";
+import synapse from "../../assets/icons/icons8-synapse.svg";
+import mongodb from "../../assets/icons/icon-mongodb.svg";
+import sql from "../../assets/icons/icons8-sql.svg";
+import hadoop from "../../assets/icons/icon-hadoop.svg";
+import spark from "../../assets/icons/icon-spark.svg";
+import matplotlib from "../../assets/icons/icon-matplotlib.svg";
+import github from "../../assets/icons/icons8-github.svg";
+import azure from "../../assets/icons/icons8-azure.svg";
+import hive from "../../assets/icons/icon-hive.svg";
+import powerbi from "../../assets/icons/icons8-powerbi.svg";
+import powerautomate from "../../assets/icons/icons8-automate.svg";
+import vscode from "../../assets/icons/icons8-vscode.svg";
+import visualstudio from "../../assets/icons/icons8-visualstudio.svg";
+import jupyter from "../../assets/icons/icons8-jupyter.svg";
+import android from "../../assets/icons/icons8-android.svg";
+import eclipse from "../../assets/icons/icon-eclipse.svg";
+import figma from "../../assets/icons/icons8-figma.svg";
+import canva from "../../assets/icons/icons8-canva.svg";
+import illustrator from "../../assets/icons/icons8-illustrator.svg";
+import inkscape from "../../assets/icons/icons8-inkscape.svg";
 
 function Skills() {
   return (
@@ -38,7 +38,7 @@ function Skills() {
       <p className={`${styles.title}`}>Technical Skills</p>
       <div className='container-fluid'>
         {/* LANGUAGES */}
-        <div className='row border'>
+        <div className='row'>
           <div className='col m-2'>
             <div className='row'>
               <div className='col-2'>
@@ -51,7 +51,7 @@ function Skills() {
                       src={csharp}
                       alt=''
                       className={`${styles.icon} img-fluid`}
-                    />{" "}
+                    />
                     C Sharp
                   </span>
                   <span className={styles.skillTag}>
@@ -92,55 +92,41 @@ function Skills() {
           </div>
         </div>
 
-        {/* DATABASES */}
-        <div className='row border'>
+        {/* FRAMEWORKS */}
+        <div className='row'>
           <div className='col m-2'>
             <div className='row'>
               <div className='col-2'>
-                <div className={styles.skillsTitle}>Databases</div>
+                <div className={styles.skillsTitle}>Frameworks</div>
               </div>
               <div className='col'>
                 <div className={styles.skillsCol}>
                   <span className={styles.skillTag}>
                     <img
-                      src={sql}
+                      src={react}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
-                    SQL Server
+                    React
                   </span>
                   <span className={styles.skillTag}>
                     <img
-                      src={mysql}
+                      src={bootstrap}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
-                    MySQL
+                    Bootstrap
                   </span>
-                  <span className={styles.skillTag}>
-                    {" "}
-                    <img
-                      src={mongodb}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    MongoDB
-                  </span>
+                  {/* <span className={styles.skillTag}>UWP</span>
+                  <span className={styles.skillTag}>MAUI</span>
+                  <span className={styles.skillTag}>ASP.NET MVC</span> */}
                   <span className={styles.skillTag}>
                     <img
-                      src={mariadb}
+                      src={hadoop}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
-                    MariaDB
-                  </span>
-                  <span className={styles.skillTag}>
-                    <img
-                      src={synapse}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    Azure Synapse Analytics
+                    Hadoop
                   </span>
                 </div>
               </div>
@@ -149,7 +135,7 @@ function Skills() {
         </div>
 
         {/* LIBRARIES */}
-        <div className='row border'>
+        <div className='row'>
           <div className='col m-2'>
             <div className='row'>
               <div className='col-2'>
@@ -204,41 +190,55 @@ function Skills() {
           </div>
         </div>
 
-        {/* FRAMEWORKS */}
-        <div className='row border'>
+        {/* DATABASES */}
+        <div className='row'>
           <div className='col m-2'>
             <div className='row'>
               <div className='col-2'>
-                <div className={styles.skillsTitle}>Frameworks</div>
+                <div className={styles.skillsTitle}>Databases</div>
               </div>
               <div className='col'>
                 <div className={styles.skillsCol}>
                   <span className={styles.skillTag}>
                     <img
-                      src={react}
+                      src={sql}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
-                    React
+                    SQL Server
                   </span>
                   <span className={styles.skillTag}>
                     <img
-                      src={bootstrap}
+                      src={mysql}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
-                    Bootstrap
+                    MySQL
                   </span>
-                  {/* <span className={styles.skillTag}>UWP</span>
-                  <span className={styles.skillTag}>MAUI</span>
-                  <span className={styles.skillTag}>ASP.NET MVC</span> */}
+                  <span className={styles.skillTag}>
+                    {" "}
+                    <img
+                      src={mongodb}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    MongoDB
+                  </span>
                   <span className={styles.skillTag}>
                     <img
-                      src={hadoop}
+                      src={mariadb}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
-                    Hadoop
+                    MariaDB
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={synapse}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    Azure Synapse Analytics
                   </span>
                 </div>
               </div>
@@ -247,7 +247,7 @@ function Skills() {
         </div>
 
         {/* TOOLS & PLATFORMS */}
-        <div className='row border'>
+        <div className='row'>
           <div className='col m-2'>
             <div className='row'>
               <div className='col-2'>
@@ -313,14 +313,6 @@ function Skills() {
                   </span>
                   <span className={styles.skillTag}>
                     <img
-                      src={jupyter}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    Jupyter Notebook
-                  </span>
-                  <span className={styles.skillTag}>
-                    <img
                       src={android}
                       alt=''
                       className={`${styles.icon} img-fluid`}
@@ -335,6 +327,14 @@ function Skills() {
                     />
                     Eclipse IDE
                   </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={jupyter}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    Jupyter Notebook
+                  </span>
                 </div>
               </div>
             </div>
@@ -342,7 +342,7 @@ function Skills() {
         </div>
 
         {/* DESIGN */}
-        <div className='row border'>
+        <div className='row'>
           <div className='col m-2'>
             <div className='row'>
               <div className='col-2'>
