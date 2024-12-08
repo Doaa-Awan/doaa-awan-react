@@ -10,12 +10,13 @@
 }
 
 .skillsTitle {
-  border-left: 3px solid var(--primary-darker);
+  border-right: 1px solid var(--primary-darker);
   color: var(--primary-darker);
   margin: 20px 0;
-  padding-left: 10px;
+  padding-right: 13px;
   font-size: 20px;
   text-transform: uppercase;
+  text-align: end!important;
 }
 
 .skillTag {
@@ -30,6 +31,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
+  /* border-bottom: 1px solid lightgray; */
   /* justify-content: center; */
 }
 
