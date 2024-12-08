@@ -36,13 +36,13 @@ function Hero() {
               <img
                 src={linkedin}
                 alt=''
-                className={`${styles.test} img-fluid`}
+                className={`${styles.test} img-fluid shadow`}
               />
-              <img src={github} alt='' className={`${styles.test} img-fluid`} />
+              <img src={github} alt='' className={`${styles.test} img-fluid shadow`} />
               <img
                 src={mail}
                 alt=''
-                className={`${styles.test} img-fluid border`}
+                className={`${styles.test} img-fluid shadow`}
               />
 
               {/* <FaLinkedin
