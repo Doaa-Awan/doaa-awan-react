@@ -31,6 +31,9 @@ import figma from "../../assets/icons/icons8-figma.svg";
 import canva from "../../assets/icons/icons8-canva.svg";
 import illustrator from "../../assets/icons/icons8-illustrator.svg";
 import inkscape from "../../assets/icons/icons8-inkscape.svg";
+import css from "../../assets/icons/icon-css.svg";
+import grafana from "../../assets/icons/icon-grafana.svg";
+import net from "../../assets/icons/icons8-net.svg";
 
 function Skills() {
   return (
@@ -38,52 +41,65 @@ function Skills() {
       {/* <p className={`${styles.title}`}>Technical Skills</p> */}
       <div className='container-fluid'>
         {/* LANGUAGES */}
-        <div className='row'>
+        <div className='row '>
           <div className='col m-2'>
             <div className='row'>
               <div className='col-2'>
-                <div className={styles.skillsTitle}>Languages</div>
+                <div className={`${styles.skillsTitle}`}>Languages</div>
               </div>
               <div className='col'>
                 <div className={styles.skillsCol}>
-                  <span className={styles.skillTag}>
+                  <span className={`${styles.skillTag}`}>
                     <img
                       src={csharp}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
-                    C Sharp
+                    <br />C Sharp
                   </span>
-                  <span className={styles.skillTag}>
+                  <span className={`${styles.skillTag}`}>
                     <img
                       src={python}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     Python
                   </span>
-                  <span className={styles.skillTag}>
+                  <span className={`${styles.skillTag}`}>
                     <img
                       src={java}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     Java
                   </span>
-                  <span className={styles.skillTag}>
+                  <span className={`${styles.skillTag}`}>
+                    <img
+                      src={sql}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    SQL
+                  </span>
+                  <span className={`${styles.skillTag}`}>
                     <img
                       src={php}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     PHP
                   </span>
-                  <span className={styles.skillTag}>
+                  <span className={`${styles.skillTag}`}>
                     <img
                       src={javascript}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     JavaScript
                   </span>
                 </div>
@@ -107,6 +123,7 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     React
                   </span>
                   <span className={styles.skillTag}>
@@ -115,6 +132,7 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     Bootstrap
                   </span>
                   {/* <span className={styles.skillTag}>UWP</span>
@@ -126,7 +144,70 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     Hadoop
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={net}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    .NET
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* DATABASES */}
+        <div className='row'>
+          <div className='col m-2'>
+            <div className='row'>
+              <div className='col-2'>
+                <div className={styles.skillsTitle}>Databases</div>
+              </div>
+              <div className='col'>
+                <div className={styles.skillsCol}>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={mysql}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    MySQL
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={mongodb}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    MongoDB
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={mariadb}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    MariaDB
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={synapse}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    Azure Synapse
+                    <br />
+                    Analytics
                   </span>
                 </div>
               </div>
@@ -150,6 +231,7 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     Pandas
                   </span>
                   <span className={styles.skillTag}>
@@ -158,6 +240,7 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     NumPy
                   </span>
                   <span className={styles.skillTag}>
@@ -166,6 +249,7 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     Anaconda
                   </span>
                   <span className={styles.skillTag}>
@@ -174,6 +258,7 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     Matplotlib
                   </span>
                   <span className={styles.skillTag}>
@@ -182,63 +267,8 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     PySpark
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* DATABASES */}
-        <div className='row'>
-          <div className='col m-2'>
-            <div className='row'>
-              <div className='col-2'>
-                <div className={styles.skillsTitle}>Databases</div>
-              </div>
-              <div className='col'>
-                <div className={styles.skillsCol}>
-                  <span className={styles.skillTag}>
-                    <img
-                      src={sql}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    SQL Server
-                  </span>
-                  <span className={styles.skillTag}>
-                    <img
-                      src={mysql}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    MySQL
-                  </span>
-                  <span className={styles.skillTag}>
-                    {" "}
-                    <img
-                      src={mongodb}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    MongoDB
-                  </span>
-                  <span className={styles.skillTag}>
-                    <img
-                      src={mariadb}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    MariaDB
-                  </span>
-                  <span className={styles.skillTag}>
-                    <img
-                      src={synapse}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    Azure Synapse Analytics
                   </span>
                 </div>
               </div>
@@ -261,6 +291,7 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     GitHub
                   </span>
                   <span className={styles.skillTag}>
@@ -269,6 +300,7 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     Azure
                   </span>
                   <span className={styles.skillTag}>
@@ -277,7 +309,17 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     PowerBI
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={grafana}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    Grafana
                   </span>
                   <span className={styles.skillTag}>
                     <img
@@ -285,16 +327,10 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
-                    Power Automate
-                  </span>
-
-                  <span className={styles.skillTag}>
-                    <img
-                      src={visualstudio}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    Visual Studio
+                    <br />
+                    Power
+                    <br />
+                    Automate
                   </span>
                   <span className={styles.skillTag}>
                     <img
@@ -302,7 +338,19 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     Hive
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={visualstudio}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    Visual
+                    <br />
+                    Studio
                   </span>
                   <span className={styles.skillTag}>
                     <img
@@ -310,6 +358,7 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     VS Code
                   </span>
                   <span className={styles.skillTag}>
@@ -318,24 +367,28 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
-                    Android Studio
+                    <br />
+                    Android
+                    <br />
+                    Studio
                   </span>
                   <span className={styles.skillTag}>
                     <img
                       src={eclipse}
                       alt=''
-                      className={`${styles.icon} img-fluid`}
+                      className={`${styles.icon} ${styles.scale55} img-fluid`}
                     />
+                    <br />
                     Eclipse IDE
                   </span>
-                  <span className={styles.skillTag}>
+                  {/* <span className={styles.skillTag}>
                     <img
                       src={jupyter}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
                     Jupyter Notebook
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
@@ -357,6 +410,7 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     Figma
                   </span>
                   <span className={styles.skillTag}>
@@ -365,7 +419,10 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
-                    Adobe Illustrator
+                    <br />
+                    Adobe
+                    <br />
+                    Illustrator
                   </span>
                   <span className={styles.skillTag}>
                     <img
@@ -373,6 +430,7 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     Inkscape
                   </span>
                   <span className={styles.skillTag}>
@@ -381,7 +439,17 @@ function Skills() {
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
+                    <br />
                     Canva
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={css}
+                      alt=''
+                      className={`${styles.icon} ${styles.scale55} img-fluid`}
+                    />
+                    <br />
+                    CSS
                   </span>
                 </div>
               </div>
