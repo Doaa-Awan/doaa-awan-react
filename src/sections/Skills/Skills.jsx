@@ -162,61 +162,8 @@ function Skills() {
           </div>
         </div>
 
-        {/* DATABASES */}
-        <div className='row'>
-          <div className='col m-2'>
-            <div className='row'>
-              <div className='col-2'>
-                <div className={styles.skillsTitle}>Databases</div>
-              </div>
-              <div className='col'>
-                <div className={styles.skillsCol}>
-                  <span className={styles.skillTag}>
-                    <img
-                      src={mysql}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    <br />
-                    MySQL
-                  </span>
-                  <span className={styles.skillTag}>
-                    <img
-                      src={mongodb}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    <br />
-                    MongoDB
-                  </span>
-                  <span className={styles.skillTag}>
-                    <img
-                      src={mariadb}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    <br />
-                    MariaDB
-                  </span>
-                  <span className={styles.skillTag}>
-                    <img
-                      src={synapse}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    <br />
-                    Azure Synapse
-                    <br />
-                    Analytics
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* LIBRARIES */}
-        <div className='row'>
+           {/* LIBRARIES */}
+           <div className='row'>
           <div className='col m-2'>
             <div className='row'>
               <div className='col-2'>
@@ -270,6 +217,59 @@ function Skills() {
                     <br />
                     PySpark
                   </span> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* DATABASES */}
+        <div className='row'>
+          <div className='col m-2'>
+            <div className='row'>
+              <div className='col-2'>
+                <div className={styles.skillsTitle}>Databases</div>
+              </div>
+              <div className='col'>
+                <div className={styles.skillsCol}>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={mysql}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    MySQL
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={mongodb}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    MongoDB
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={mariadb}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    MariaDB
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={synapse}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    Azure Synapse
+                    <br />
+                    Analytics
+                  </span>
                 </div>
               </div>
             </div>

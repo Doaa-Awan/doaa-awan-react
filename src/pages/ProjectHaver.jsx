@@ -15,25 +15,42 @@ function ProjectHaver() {
           <span className={styles.detailsSkill}>XML</span>
           <span className={styles.detailsSkill}>Bootstrap</span>
         </h2>
-        <div className='d-flex'>
-          <img
-            src={haver}
-            alt=''
-            className='img-fluid rounded shadow p-2 m-3'
-          />
-          <div className={`${styles.overview} m-3`}>
-            <p className='text-muted'>
-              Non-conformance report management system for a local manufacturing
-              company
-            </p>
-            <ul>
-              <li>
-                The system features role-based login functionality, providing
-                tailored views and permissions for different users, such as
-                Admin, Finance, and other team members.
-              </li>
-            </ul>
-            <ProjectLinks src='https://haverniagara2024.azurewebsites.net/' />
+        <div className='row'>
+          <div className='col-7'>
+            <div>
+              <img
+                src={haver}
+                alt=''
+                className='img-fluid rounded shadow p-2 m-3'
+              />
+            </div>
+          </div>
+          <div className='col'>
+            <div className={`${styles.overview} m-3`}>
+              <p className='text-muted'>
+                Non-conformance report management system for a local
+                manufacturing company
+              </p>
+              <ul>
+                <li>
+                  Role-based login functionality, providing tailored views and
+                  permissions for different users, such as Admin, Finance, and
+                  other team members.
+                </li>
+                <li>
+                  Reports are created by Quality Representatives, and progress
+                  through structured stages as each section is completed (from
+                  Quality to Engineering, Operations, Procurement, and back for
+                  final inspection).
+                </li>
+                <li>
+                  Automated emails sent to notify specific teams as the report
+                  transitions through stages, reducing delays and improving
+                  efficiency.
+                </li>
+              </ul>
+              <ProjectLinks src='https://haverniagara2024.azurewebsites.net/' />
+            </div>
           </div>
         </div>
       </div>
