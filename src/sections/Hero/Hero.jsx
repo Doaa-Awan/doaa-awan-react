@@ -5,6 +5,7 @@ import styles from "./HeroStyles.module.css";
 import mail from "../../assets/mail-icon.svg";
 import github from "../../assets/github-icon.svg";
 import linkedin from "../../assets/linkedin-icon.svg";
+import pfp from "../../assets/pfp.png";
 
 function Hero() {
   return (
@@ -25,7 +26,7 @@ function Hero() {
             </div>
             <div className='col-5'>
               <img
-                src='/src/assets/pfp.png'
+                src={pfp}
                 alt='Profile'
                 className={`${styles.imgHero} img-fluid border rounded-circle shadow`}
               />
