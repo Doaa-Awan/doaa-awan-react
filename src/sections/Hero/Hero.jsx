@@ -8,7 +8,7 @@ import linkedin from "../../assets/linkedin-icon.svg";
 
 function Hero() {
   return (
-    <div>
+    <div className={styles.heroContainer}>
       <div className='d-flex align-items-center vh-100'>
         <div className='container'>
           <div className='row'>
@@ -33,17 +33,30 @@ function Hero() {
           </div>
           <div className='row'>
             <div className={`${styles.buttons} d-flex justify-content-center`}>
-              <img
-                src={linkedin}
-                alt=''
-                className={`${styles.test} img-fluid shadow`}
-              />
-              <img src={github} alt='' className={`${styles.test} img-fluid shadow`} />
-              <img
-                src={mail}
-                alt=''
-                className={`${styles.test} img-fluid shadow`}
-              />
+              <a href='https://www.linkedin.com/in/doaa-awan/' target='_blank'>
+                <img
+                  src={linkedin}
+                  alt=''
+                  className={`${styles.test} img-fluid shadow`}
+                />
+              </a>
+              <a
+                href='https://github.com/DoaaAwan?tab=repositories'
+                target='_blank'
+              >
+                <img
+                  src={github}
+                  alt=''
+                  className={`${styles.test} img-fluid shadow`}
+                />
+              </a>
+              <a href='mailto:doaa.awan@gmail.com'>
+                <img
+                  src={mail}
+                  alt=''
+                  className={`${styles.test} img-fluid shadow`}
+                />
+              </a>
 
               {/* <FaLinkedin
                 className={`${styles.iconSocial} border rounded-circle`}

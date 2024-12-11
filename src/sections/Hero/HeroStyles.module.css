@@ -1,4 +1,4 @@
-h1 {
+.heroContainer h1 {
   font-family: "Kaushan Script", sans-serif;
   color: var(--primary) !important;
   font-size: 120px !important;
@@ -6,7 +6,7 @@ h1 {
   /* color: #D67C96!important; */
 }
 
-h2 {
+.heroContainer h2 {
   font-family: "Karla", sans-serif;
   text-transform: uppercase;
   color: var(--primary-darker) !important;
@@ -14,7 +14,7 @@ h2 {
   /* padding-right: 100px !important; */
 }
 
-h2 .leftBorder {
+.heroContainer h2 .leftBorder {
   border-left: 5px solid var(--primary-darker);
   padding-left: 20px !important;
 }
@@ -53,4 +53,12 @@ h2 .leftBorder {
   height: 80px!important;
   border-radius: 50%!important;
   margin-right: 40px;
+}
+
+@media (min-width: 1400px) {
+  .headingContainer{
+    margin-top: 135px!important;
+    padding-left: 80px!important;
+  }
+  
 }

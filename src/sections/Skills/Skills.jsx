@@ -140,21 +140,21 @@ function Skills() {
                   <span className={styles.skillTag}>ASP.NET MVC</span> */}
                   <span className={styles.skillTag}>
                     <img
-                      src={hadoop}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    <br />
-                    Hadoop
-                  </span>
-                  <span className={styles.skillTag}>
-                    <img
                       src={net}
                       alt=''
                       className={`${styles.icon} img-fluid`}
                     />
                     <br />
                     .NET
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={hadoop}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    Hadoop
                   </span>
                 </div>
               </div>
@@ -261,15 +261,15 @@ function Skills() {
                     <br />
                     Matplotlib
                   </span>
-                  <span className={styles.skillTag}>
+                  {/* <span className={styles.skillTag}>
                     <img
                       src={spark}
                       alt=''
-                      className={`${styles.icon} img-fluid`}
+                      className={`${styles.icon} ${styles.scale55} img-fluid`}
                     />
                     <br />
                     PySpark
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
@@ -332,15 +332,7 @@ function Skills() {
                     <br />
                     Automate
                   </span>
-                  <span className={styles.skillTag}>
-                    <img
-                      src={hive}
-                      alt=''
-                      className={`${styles.icon} img-fluid`}
-                    />
-                    <br />
-                    Hive
-                  </span>
+
                   <span className={styles.skillTag}>
                     <img
                       src={visualstudio}
@@ -380,6 +372,15 @@ function Skills() {
                     />
                     <br />
                     Eclipse IDE
+                  </span>
+                  <span className={styles.skillTag}>
+                    <img
+                      src={hive}
+                      alt=''
+                      className={`${styles.icon} img-fluid`}
+                    />
+                    <br />
+                    Hive
                   </span>
                   {/* <span className={styles.skillTag}>
                     <img

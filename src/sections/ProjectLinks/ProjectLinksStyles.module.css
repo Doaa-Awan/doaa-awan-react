@@ -1,0 +1,15 @@
+.linkIcon {
+  position: relative;
+  bottom: 1px;
+  margin: 0 3px;
+}
+
+.backButton {
+  padding: 10px 20px 10px 14px;
+  border-radius: 30px;
+}
+
+.forwardButton {
+  padding: 10px 13px 10px 20px;
+  border-radius: 30px;
+}

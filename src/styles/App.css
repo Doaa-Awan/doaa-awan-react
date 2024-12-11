@@ -11,8 +11,24 @@ body {
   background-color: var(--background) !important;
 }
 
-.pgcontainer {
-  margin-top: 85px;
+.pgMarginTop {
+  margin-top: 105px;
+}
+
+.clrHaver {
+  color: #025ab3;
+}
+
+.clrEmmas {
+  color: #23748c;
+}
+
+.clrContoso {
+  color: #d36542;
+}
+
+.clrWeather {
+  color: #f14da5;
 }
 
 /* .scale55 {

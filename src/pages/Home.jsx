@@ -10,8 +10,8 @@ function Home() {
           <div className={`${styles.statementTitle} col`}>about me</div>
           </div> */}
       <p className={`${styles.statement}`}>
-        creating <b>user-friendly</b> applications that{" "}
-        <b>solve real problems</b>.
+        creating <b>user-friendly</b> applications that
+        <b> solve real problems</b>.
       </p>
       <Skills />
     </>

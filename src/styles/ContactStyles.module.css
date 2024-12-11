@@ -1,0 +1,25 @@
+.contactContainer {
+  margin-top: 195px;
+  text-align: center;
+}
+
+.contactContainer h1 {
+  font-size: 65px;
+  color: gray;
+  font-family: var(--font-headings) !important;
+}
+
+.contactContainer h2 {
+  color: rgb(173, 172, 172);
+  font-family: var(--font-default);
+}
+
+.contactContainer a {
+    text-decoration: none;
+    color: gray;
+}
+
+.contactButton {
+  height: 100px !important;
+  border-radius: 50% !important;
+}
