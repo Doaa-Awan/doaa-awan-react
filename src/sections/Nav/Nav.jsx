@@ -42,7 +42,7 @@ function Nav() {
           </div>
           {/* Sidebar Body */}
           <div className='offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0'>
-            <ul className='navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3'>
+            <ul className='navbar-nav justify-content-center align-items-center fs-5 flex-grow-1'>
               <li className='nav-item mx-2'>
                 <NavLink className='nav-NavLink' aria-current='page' to='/'>
                   Home
@@ -58,11 +58,11 @@ function Nav() {
                   Experience
                 </NavLink>
               </li>
-              <li className='nav-item mx-2'>
+              {/* <li className='nav-item mx-2'>
                 <NavLink className='nav-NavLink' to='/About'>
                   About
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
             {/* Contact Button */}
             <div className='d-flex flex-lg-row justify-content-center align-items-center gap-3'>

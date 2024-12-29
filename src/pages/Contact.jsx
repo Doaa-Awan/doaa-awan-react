@@ -28,7 +28,7 @@ function Contact() {
         </a>
       </div>
 
-      <div className='mt-5'>
+      {/* <div className='mt-5'>
         <p className='text-muted'>
           <b>LinkedIn: </b>
           <a href='https://www.linkedin.com/in/doaa-awan/'>
@@ -40,7 +40,7 @@ function Contact() {
           <b>Email: </b>
           <a href='mailto:doaa.awan@gmail.com'> doaa.awan@gmail.com</a>
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }

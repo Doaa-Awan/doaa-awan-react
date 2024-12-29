@@ -41,7 +41,7 @@ function ProjectEmmas() {
                   warranty reports, repair reports, and weekly sales reports.
                 </li>
               </ul>
-              <ProjectLinks src='https://digitaledge-emmademo.netlify.app/pages/login' />
+              <ProjectLinks src='https://github.com/DoaaAwan/Team_Project' />
             </div>
           </div>
         </div>

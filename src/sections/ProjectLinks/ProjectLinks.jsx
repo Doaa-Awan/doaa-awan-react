@@ -24,7 +24,7 @@ function ProjectLinks({ src }) {
             rel='noopener noreferrer'
             className={`${styles.forwardButton} btn btn-primary`}
           >
-            View Project
+            GitHub
             <IoChevronForward className={styles.linkIcon} />
           </a>
         )}

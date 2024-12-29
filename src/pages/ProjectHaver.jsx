@@ -11,8 +11,9 @@ function ProjectHaver() {
           <span className={styles.detailsSkill}>ASP.NET MVC</span>
           <span className={styles.detailsSkill}>C#</span>
           <span className={styles.detailsSkill}>JavaScript</span>
+          <span className={styles.detailsSkill}>SQLite</span>
+          <span className={styles.detailsSkill}>XAML</span>
           <span className={styles.detailsSkill}>HTML/CSS</span>
-          <span className={styles.detailsSkill}>XML</span>
           <span className={styles.detailsSkill}>Bootstrap</span>
         </h2>
         <div className='row'>
@@ -49,7 +50,7 @@ function ProjectHaver() {
                   efficiency.
                 </li>
               </ul>
-              <ProjectLinks src='https://haverniagara2024.azurewebsites.net/' />
+              <ProjectLinks src='https://github.com/Dorian-Orozco/JDAC4-Haver-Niagara'/>
             </div>
           </div>
         </div>

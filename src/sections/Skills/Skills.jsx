@@ -47,7 +47,7 @@ function Skills() {
               <div className='col-2'>
                 <div className={`${styles.skillsTitle}`}>Languages</div>
               </div>
-              <div className='col'>
+              <div className='col-6'>
                 <div className={styles.skillsCol}>
                   <span className={`${styles.skillTag}`}>
                     <img
@@ -115,7 +115,7 @@ function Skills() {
               <div className='col-2'>
                 <div className={styles.skillsTitle}>Frameworks</div>
               </div>
-              <div className='col'>
+              <div className='col-6'>
                 <div className={styles.skillsCol}>
                   <span className={styles.skillTag}>
                     <img
@@ -169,7 +169,7 @@ function Skills() {
               <div className='col-2'>
                 <div className={styles.skillsTitle}>Libraries</div>
               </div>
-              <div className='col'>
+              <div className='col-6'>
                 <div className={styles.skillsCol}>
                   {/* <span className={styles.skillTag}>PyMongo</span> */}
                   <span className={styles.skillTag}>
@@ -230,7 +230,7 @@ function Skills() {
               <div className='col-2'>
                 <div className={styles.skillsTitle}>Databases</div>
               </div>
-              <div className='col'>
+              <div className='col-6'>
                 <div className={styles.skillsCol}>
                   <span className={styles.skillTag}>
                     <img
@@ -283,7 +283,7 @@ function Skills() {
               <div className='col-2'>
                 <div className={styles.skillsTitle}>Tools & Platforms</div>
               </div>
-              <div className='col'>
+              <div className='col-6'>
                 <div className={styles.skillsCol}>
                   <span className={styles.skillTag}>
                     <img
@@ -403,7 +403,7 @@ function Skills() {
               <div className='col-2'>
                 <div className={styles.skillsTitle}>Design</div>
               </div>
-              <div className='col'>
+              <div className='col-6'>
                 <div className={styles.skillsCol}>
                   <span className={styles.skillTag}>
                     <img

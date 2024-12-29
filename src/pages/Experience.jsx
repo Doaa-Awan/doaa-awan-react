@@ -5,7 +5,7 @@ function Experience() {
     <div className={styles.experienceContainer}>
       <div className='container'>
         <div className='row border rounded p-4'>
-        <div className='col'>
+          <div className='col'>
             <div>
               <h3>Work experience</h3>
               <div>
@@ -14,19 +14,16 @@ function Experience() {
                 </p>
                 <ul>
                   <li>
-                    Analyzed data, generated comprehensive reports for internal
-                    use, and developed SQL queries to extract, manipulate, and
-                    display data in an accurate and reliable manner.
+                    Automated data retrieval and report generation, reducing
+                    manual efforts and increasing efficiency by 99.86%.
+                  </li>
+                  <li>
+                    Developed SQL queries to analyze data and generate
+                    comprehensive reports for internal use.
                   </li>
                   <li>
                     Designed and implemented real-time interactive dashboards to
-                    monitor key performance indicators (KPIs) and metrics using
-                    HaloPSA, Grafana and Microsoft PowerBI.
-                  </li>
-                  <li>
-                    Automated data synchronization across multiple platforms by
-                    creating Rewst workflows, significantly reducing manual
-                    efforts and enhancing data consistency.
+                    monitor key performance indicators (KPIs) and metrics.
                   </li>
                 </ul>
               </div>
@@ -56,8 +53,7 @@ function Experience() {
                     precise, and captivating through regular reviews and edits.
                   </li>
                   <li>
-                    Collaborated within a small, closely-knit team including
-                    Customer Service, and Sales, maintaining effective
+                    Collaborated within a small team, maintaining effective
                     communication and asking relevant questions to streamline
                     processes and reach alignment.
                   </li>
@@ -81,7 +77,7 @@ function Experience() {
               </p>
             </div>
           </div>
-        <div className='col border-start ps-4 ms-4'>
+          <div className='col border-start ps-4 ms-4'>
             <div>
               <h3>Technical Skills</h3>
               <div>
@@ -92,7 +88,7 @@ function Experience() {
                   <span className={styles.skillTag}>Java</span>
                   <span className={styles.skillTag}>SQL</span>
                   <span className={styles.skillTag}>JavaScript</span>
-                  <span className={styles.skillTag}>HTML/CSS</span>
+                  {/* <span className={styles.skillTag}>HTML/CSS</span> */}
                 </p>
                 <p>
                   <b>Frameworks</b>
@@ -118,21 +114,6 @@ function Experience() {
               </div>
             </div>
             <div>
-              <h3>Education</h3>
-              <div>
-                <p>
-                  <b>Niagara College</b>
-                  <br />
-                  Advanced Diploma in Computer Programming & Analysis (Co-op)
-                </p>
-                <p>
-                  <b>McMaster University</b>
-                  <br />
-                  B.A in Justice, Political Philosophy & Law (Honours)
-                </p>
-              </div>
-            </div>
-            <div>
               <h3>Leadership</h3>
               <div>
                 <p>
@@ -150,6 +131,22 @@ function Experience() {
                 </ul>
               </div>
             </div>
+            <div>
+              <h3>Education</h3>
+              <div>
+                <p>
+                  <b>Niagara College</b>
+                  <br />
+                  Advanced Diploma in Computer Programming & Analysis (Co-op)
+                </p>
+                <p>
+                  <b>McMaster University</b>
+                  <br />
+                  B.A in Justice, Political Philosophy & Law (Honours)
+                </p>
+              </div>
+            </div>
+           
             <div>
               <h3>Awards</h3>
               <p>
@@ -172,8 +169,6 @@ function Experience() {
               </p>
             </div>
           </div>
-       
-        
         </div>
       </div>
     </div>

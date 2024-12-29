@@ -1,5 +1,41 @@
 .pgProjects {
   font-family: var(--font-default);
+  margin-top: 70px;
+  padding: 0px 20px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.projImage{
+  padding: 0px!important;
+}
+
+ /* Large screens: 3 columns */
+ @media (min-width: 992px) {
+  .gridContainer {
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .projImage{
+    padding: 20px 20px 0 20px!important;
+  }
+}
+
+/* Medium screens: 2 columns */
+@media (min-width: 768px) and (max-width: 991px) {
+  .gridContainer {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small screens: 1 column */
+@media (max-width: 767px) {
+  .gridContainer {
+      grid-template-columns: 1fr;
+  }
 }
 
 .projTitle {
@@ -24,18 +60,27 @@
   margin-left: 10px;
 }
 
+.skillTag {
+  border: 1px solid gray;
+  padding: 8px 13px;
+  border-radius: 25px;
+  margin: 0 10px 8px 0;
+  font-size: 12px;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  padding-left: 20px;
+  /* justify-content: center; */
 }
 
-.skillTag {
+/* .skillTag {
   margin-right: 10px;
-}
+} */
 
 .skillIcon {
-  height: 45px !important;
+  height: 38px !important;
   scale: 90%;
   /* opacity: 0.7; */
 }
@@ -47,6 +92,8 @@
 .link:hover {
   border: 1px solid transparent;
 }
+
+
 
 /* CUSTOM */
 
