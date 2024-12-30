@@ -28,6 +28,8 @@ function Projects() {
             className={`${styles.projImage} card-img-top`}
             src={haver}
             alt='Card image cap'
+            loading='lazy'
+            width="500"
           />
           <div className='card-body p-4'>
             <div className='border-start border-primary ps-4'>
@@ -64,6 +66,8 @@ function Projects() {
             className={`${styles.projImage} card-img-top`}
             src={emmas}
             alt='Card image cap'
+            loading='lazy'
+            width="500"
           />
           <div className='card-body p-4'>
             <div className='border-start border-primary ps-4'>
@@ -96,6 +100,8 @@ function Projects() {
             className={`${styles.projImage} card-img-top`}
             src={contoso}
             alt='Card image cap'
+            loading='lazy'
+            width="500"
           />
           <div className='card-body p-4'>
             <div className='border-start border-primary ps-4'>
