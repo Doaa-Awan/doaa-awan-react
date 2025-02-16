@@ -1,15 +1,25 @@
-.skillsContainer {
-  margin: 60px 50px !important;
+.skillGridWrapper {
+  display: block;
+  margin: 80px auto;
 }
 
-/* .test{
-  background: transparent!important;
-  height: 80px!important;
-  border-radius: 50%!important;
-} */
+.skillRowsGrid {
+  display: grid;
+  grid-template-columns: 32% auto;
+  grid-template-rows: auto;
+  margin-bottom: 10px;
+}
+
+.skillIconsGrid {
+  display: grid;
+  grid-template-columns: repeat(6, fit-content(100px));
+}
+
+.skillsContainer {
+  margin: 60px auto !important;
+}
 
 .title {
-  /* margin-left: 60px; */
   text-transform: uppercase !important;
   font-size: 27px;
   font-weight: lighter;
@@ -19,7 +29,7 @@
 .skillsTitle {
   border-right: 1px solid var(--primary);
   color: var(--primary);
-  margin: 20px 0;
+  margin: 20px;
   padding-right: 13px;
   font-size: 18px;
   text-transform: uppercase;
@@ -27,10 +37,6 @@
 }
 
 .skillTag {
-  /* border-right: 2px solid lightgray; */
-  /* border-bottom: 2px solid lightgray; */
-  /* border-radius: 10px; */
-  /* padding: 5px 10px; */
   padding: 0 8px;
   margin: 0 5px;
   font-size: 13px;
@@ -38,24 +44,24 @@
   text-align: center;
 }
 
+.skillTag p {
+  margin-top: -5px;
+}
+
 .skillsCol {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 10px;
-  /* border-bottom: 1px solid lightgray; */
-  /* justify-content: center; */
 }
 
 .icon {
   background: transparent !important;
-  height: 75px !important;
-  scale: 55%;
-  /* position: relative; */
-  /* bottom: 1px; */
+  height: 85px !important;
+  scale: 70%;
 }
 
-.scale55 {
-  scale: 45%;
+.scaleSmaller {
+  scale: 48%;
 }
 
 .clrLanguages {
